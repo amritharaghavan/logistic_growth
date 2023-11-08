@@ -1,26 +1,30 @@
 #Script to plot the logistic growth data
 
-growth_data <- read.csv("???")
+growth_data <- read.csv("experiment1.csv")
 
 install.packages("ggplot2")
 library(ggplot2)
 
-ggplot(aes(t,N), data = ???) +
+ggplot(aes(t,N), data = growth_data) +
   
   geom_point() +
   
   xlab("t") +
   
-  ylab("y") +
+  ylab("N") +
   
   theme_bw()
 
-ggplot(aes(t,???), data = growth_data) +
+#Draws an S curve showing abundance of bacteria against time in minutes
+
+ggplot(aes(t,N), data = growth_data) +
   
   geom_point() +
   
   xlab("t") +
   
-  ylab("y") +
+  ylab("log10(N)") +
   
   scale_y_continuous(trans='log10')
+
+#Same graph but transformed to a log scale- makes the relationship look more linear
