@@ -9,5 +9,9 @@ R scripts for a reproducible analysis of logistic growth
   r= 1.004e-02
   K= 6.000e+10
 
-2)For exponential growth, N(t)=N0+ (r*t)
-                              =975.54+ (1.004e-2*4980)= 1025.55
+2)For exponential growth, N (t) = N0e^(rt)
+                                = 975.54e^(0.01004*4980)
+                                =1059.22
+If the growth was capped at the carrying capacity, we would expect it to have reached 6*10^10 by t=4980. This is much higher than the calculated growth?
+
+
