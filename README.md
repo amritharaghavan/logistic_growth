@@ -37,12 +37,11 @@ summary(model2) #This gives the results table of this model: the results are bel
   Results table from running model 1: 
   
   Coefficients:
-  
+  ```
              Estimate Std. Error t value Pr(>|t|)    
-             
-(Intercept) 6.883e+00  1.548e-02   444.8   <2e-16 ***
-
-t           1.004e-02  2.749e-05   365.1   <2e-16 ***
+(Intercept) 6.883e+00  1.548e-02   444.8   <2e-16 
+t           1.004e-02  2.749e-05   365.1   <2e-16
+```
 ---
 
 Residual standard error: 0.03332 on 15 degrees of freedom
@@ -55,10 +54,10 @@ F-statistic: 1.333e+05 on 1 and 15 DF,  p-value: < 2.2e-16
 Results table from running model 2:
 
 Coefficients:
-
+```
              Estimate Std. Error t value Pr(>|t|)
-             
-(Intercept) 6.000e+10  6.446e+03 9307484   <2e-16 ***
+(Intercept) 6.000e+10  6.446e+03 9307484   <2e-16
+```
 ---
 
 
